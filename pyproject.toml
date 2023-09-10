@@ -36,7 +36,7 @@ file = "README.rst"
 content-type = "text/x-rst"
 
 [project.urls]
-Homepage = "https://github.com//pypackage-skeleton"
+Homepage = "https://github.com/12rambau/pypackage-skeleton"
 
 [project.optional-dependencies]
 test = [
@@ -107,4 +107,4 @@ non_interactive = true
 warn_redundant_casts = true
 
 [tool.licensecheck]
-using = "PEP631:test;doc" #dev
+using = "PEP631:test;doc"

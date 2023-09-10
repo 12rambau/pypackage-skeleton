@@ -38,7 +38,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com//pypackage-skeleton",
+            "url": "https://github.com/12rambau/pypackage-skeleton",
             "icon": "fa-brands fa-github",
         },
         {
@@ -49,7 +49,7 @@ html_theme_options = {
     ],
 }
 html_context = {
-    "github_user": "",
+    "github_user": "12rambau",
     "github_repo": "pypackage-skeleton",
     "github_version": "",
     "doc_path": "docs",

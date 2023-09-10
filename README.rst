@@ -26,12 +26,12 @@ Pypackage Skeleton
     :target: https://pypi.org/project/pypackage-skeleton/
     :alt: PyPI version
 
-.. image:: https://img.shields.io/github/actions/workflow/status//pypackage-skeleton/unit.yaml?logo=github&logoColor=white
-    :target: https://github.com//pypackage-skeleton/actions/workflows/unit.yaml
+.. image:: https://img.shields.io/github/actions/workflow/status/12rambau/pypackage-skeleton/unit.yaml?logo=github&logoColor=white
+    :target: https://github.com/12rambau/pypackage-skeleton/actions/workflows/unit.yaml
     :alt: build
 
-.. image:: https://img.shields.io/codecov/c/github//pypackage-skeleton?logo=codecov&logoColor=white
-    :target: https://codecov.io/gh//pypackage-skeleton
+.. image:: https://img.shields.io/codecov/c/github/12rambau/pypackage-skeleton?logo=codecov&logoColor=white
+    :target: https://codecov.io/gh/12rambau/pypackage-skeleton
     :alt: Test Coverage
 
 .. image:: https://img.shields.io/readthedocs/pypackage-skeleton?logo=readthedocs&logoColor=white
@@ -46,4 +46,4 @@ An automatic build of the @12rambau/pypackage copier template
 Credits
 -------
 
-This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@12rambau/pypackage <https://github.com/12rambau/pypackage>`__ 0.1.0b1 project template .
+This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@12rambau/pypackage <https://github.com/12rambau/pypackage>`__ 0.1.0b4 project template .
