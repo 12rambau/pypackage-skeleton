@@ -12,7 +12,7 @@ from datetime import datetime
 project = "Pypackage Skeleton"
 author = "Pierrick Rambaud"
 copyright = f"2020-{datetime.now().year}, {author}"
-release = "0.1.0b5"
+release = "0.1.0b6"
 
 # -- General configuration -----------------------------------------------------
 extensions = [

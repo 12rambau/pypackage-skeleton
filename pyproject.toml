@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pypackage-skeleton"
-version = "0.1.0b5"
+version = "0.1.0b6"
 description = "An automatic build of the @12rambau/pypackage copier template"
 keywords = [
   "skeleton",
@@ -67,7 +67,7 @@ post-install-commands = ["pre-commit install"]
 [tool.commitizen]
 tag_format = "v$major.$minor.$patch$prerelease"
 update_changelog_on_bump = false
-version = "0.1.0b5"
+version = "0.1.0b6"
 version_files = [
     "pyproject.toml:version",
     "pypackage_skeleton/__init__.py:__version__",
