@@ -6,7 +6,7 @@ on:
       version:
         description: "Copier template version to use"
         required: true
-        default: 0.1.0b5
+        default: 0.1.0b6
 
 jobs:
   update:
