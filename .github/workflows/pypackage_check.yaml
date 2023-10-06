@@ -34,16 +34,16 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: "Update template to ${{ steps.get_latest_release.outputs.latest }}"
           body: |
-            The package is based on the ${{ steps.get_cuurent_version.outputs.current }} version of [@12rambau/pypackage](https://github.com/12rambau/pypackage).
+            The package is based on the ${{ steps.get_current_version.outputs.current }} version of [@12rambau/pypackage](https://github.com/12rambau/pypackage).
 
             The latest version of the template is ${{ steps.get_latest_release.outputs.latest }}.
 
             Please consider updating the template to the latest version to include all the latest developments.
 
-            Run the following in your project directory to update the template:
+            Run the following code in your project directory to update the template:
 
             ```
-            copier --trust --defaults --vsc-ref ${{ steps.get_latest_release.outputs.latest }} update
+            copier update --trust --defaults --vcs-ref ${{ steps.get_latest_release.outputs.latest }}
             ```
 
-            Then solve merging issues and push back the changes to your main branch.
+            After solving the merging issues you can push back the changes to your main branch.
