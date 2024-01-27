@@ -11,8 +11,8 @@ from datetime import datetime
 # -- Project information -------------------------------------------------------
 project = "Pypackage Skeleton"
 author = "Pierrick Rambaud"
-copyright = f"2020-{datetime.now().year}, {author}"
-release = "0.1.1"
+copyright = f"2024-{datetime.now().year}, {author}"
+release = "0.0.0"
 
 # -- General configuration -----------------------------------------------------
 extensions = [
