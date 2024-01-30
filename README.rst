@@ -46,4 +46,4 @@ An automatic build of the @12rambau/pypackage copier template
 Credits
 -------
 
-This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@12rambau/pypackage <https://github.com/12rambau/pypackage>`__ 0.1.8 project template.
+This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@12rambau/pypackage <https://github.com/12rambau/pypackage>`__ 0.1.9 project template.
