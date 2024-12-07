@@ -43,7 +43,7 @@ Pypackage Skeleton
 Overview
 --------
 
-An automatic build of the @12rambau/pypackage copier template
+An automatic build of the `@12rambau/pypackage <https://github.com/12rambau/pypackage>`__ copier template
 
 Credits
 -------
