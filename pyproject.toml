@@ -41,7 +41,6 @@ Homepage = "https://github.com/12rambau/pypackage-skeleton"
 [project.optional-dependencies]
 test = [
   "pytest",
-  "pytest-sugar",
   "pytest-cov",
   "pytest-deadfixtures"
 ]
@@ -60,7 +59,7 @@ only-include = ["pypackage_skeleton"]
 dependencies = [
   "pre-commit",
   "commitizen",
-  "nox"
+  "nox[uv]"
 ]
 post-install-commands = ["pre-commit install"]
 
@@ -78,10 +77,8 @@ version_files = [
 [tool.pytest.ini_options]
 testpaths = "tests"
 
-[tool.black]
-line-length = 100
-
 [tool.ruff]
+line-length = 100
 ignore-init-module-imports = true
 fix = true
 select = ["E", "F", "W", "I", "D", "RUF"]
@@ -99,15 +96,9 @@ convention = "google"
 [tool.coverage.run]
 source = ["pypackage_skeleton"]
 
-[tool.doc8]
-ignore = ["D001"] # we follow a 1 line = 1 paragraph style
-
 [tool.mypy]
 scripts_are_modules = true
 ignore_missing_imports = true
 install_types = true
 non_interactive = true
 warn_redundant_casts = true
-
-[tool.licensecheck]
-using = "PEP631"
